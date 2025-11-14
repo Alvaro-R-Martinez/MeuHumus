@@ -22,7 +22,7 @@ const personas = [
 ];
 
 const steps = [
-  'Cadastre-se com dados básicos do seu negócio.',
+  'Cadastre-se com dados básicos.',
   'Combine horários para levar ou receber resíduos frescos.',
   'Confirme cada entrega e acompanhe o impacto positivo.',
 ];
