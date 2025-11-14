@@ -78,7 +78,6 @@ export default function CadastroPage() {
             className={`mx-auto w-full max-w-md space-y-6 rounded-2xl border border-[var(--border)] bg-[var(--surface)]/90 px-5 py-6 text-center shadow-sm sm:max-w-xl sm:px-6 sm:py-8 transition-opacity duration-300 ${isIntroTransitioning ? "opacity-0" : "opacity-100"}`}
           >
             <header className="space-y-3">
-              <p className="text-xs font-semibold uppercase tracking-[0.35em] text-[var(--accent)]">Antes de começar</p>
               <h1 className="text-2xl font-semibold text-[var(--foreground)] sm:text-3xl">
                 Venha fazer parte de nosso ciclo de sustentabilidade
               </h1>

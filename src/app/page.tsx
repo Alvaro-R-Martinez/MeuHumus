@@ -8,7 +8,7 @@ const personas = [
   {
     title: 'Produtores',
     description:
-      'Restaurantes, cafés e mercados liberam espaço na cozinha ao enviar resíduos limpos e ganham o selo de destino correto.',
+      'Restaurantes, cafés, escolas, universidades, indivíduos e mercados liberam espaço na cozinha ao enviar resíduos limpos e ganham o selo de destino correto.',
     href: '/cadastro',
     cta: 'Cadastrar produtor',
   },
@@ -69,7 +69,7 @@ export default function Home() {
               Dê um destino inteligente aos restos orgânicos da cidade
             </h1>
             <p className="text-sm text-[var(--muted)] sm:text-base">
-              Produtores evitam o lixo caro e conquistam clientes com ações reais. Receptores recebem matéria-prima limpa para criar
+              Produtores de resíduos orgânicos evitam o lixo caro e conquistam clientes com ações reais. Receptores recebem matéria-prima limpa para criar
               compostos e adubos em pequena escala. Tudo começa com um cadastro simples e combinações diretas.
             </p>
             <div className="flex flex-col gap-3 text-sm sm:flex-row">
@@ -77,13 +77,13 @@ export default function Home() {
                 href="/login"
                 className="inline-flex items-center justify-center rounded-full border border-[var(--border)] bg-[color-mix(in_srgb,var(--accent) 85%,white 15%)] px-5 py-3 font-semibold text-[var(--color-trufa)] transition-transform duration-150 hover:scale-[1.01] hover:border-[var(--accent)] hover:bg-[color-mix(in_srgb,var(--accent) 25%,transparent)] hover:text-[var(--color-trufa)]"
               >
-                Entrar agora
+                Já faço parte
               </Link>
               <Link
                 href="/cadastro"
                 className="inline-flex items-center justify-center rounded-full border border-[var(--border)] px-5 py-3 font-semibold text-[var(--muted)] transition-colors duration-150 hover:border-[var(--accent)] hover:bg-[color-mix(in_srgb,var(--accent) 20%,transparent)] hover:text-[var(--color-trufa)]"
               >
-                Quero receber resíduos
+                Quero fazer parte!
               </Link>
             </div>
           </div>
