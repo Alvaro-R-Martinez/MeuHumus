@@ -9,14 +9,14 @@ const personas = [
     title: 'Produtores',
     description:
       'Restaurantes, cafés e mercados liberam espaço na cozinha ao enviar resíduos limpos e ganham o selo de destino correto.',
-    href: '/cadastro-produtor',
+    href: '/cadastro',
     cta: 'Cadastrar produtor',
   },
   {
     title: 'Receptores',
     description:
       'Composteiras urbanas e pequenos produtores definem capacidade diária, resíduos aceitos e janelas de recebimento.',
-    href: '/cadastro-receptor',
+    href: '/cadastro',
     cta: 'Cadastrar receptor',
   },
 ];
@@ -80,7 +80,7 @@ export default function Home() {
                 Entrar agora
               </Link>
               <Link
-                href="/cadastro-receptor"
+                href="/cadastro"
                 className="inline-flex items-center justify-center rounded-full border border-[var(--border)] px-5 py-3 font-semibold text-[var(--muted)] transition-colors duration-150 hover:border-[var(--accent)] hover:bg-[color-mix(in_srgb,var(--accent) 20%,transparent)] hover:text-[var(--color-trufa)]"
               >
                 Quero receber resíduos
