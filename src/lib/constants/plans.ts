@@ -1,0 +1,2 @@
+export const FREE_PLAN_MONTHLY_LIMIT_KG = 50;
+export const ESTIMATED_WEEKS_PER_MONTH = 4;
