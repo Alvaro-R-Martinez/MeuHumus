@@ -55,7 +55,7 @@ export default function Home() {
               href="/cadastro"
               className="rounded-full border border-[var(--border)] px-4 py-2 text-[var(--accent)] transition-colors duration-150 hover:border-[var(--accent)] hover:bg-[color-mix(in_srgb,var(--accent) 20%,transparent)] hover:text-[var(--color-trufa)] hover:shadow-lg hover:shadow-[rgba(0,0,0,0.25)]"
             >
-              Começar cadastro
+              Cadastro
             </Link>
           </nav>
         </div>
